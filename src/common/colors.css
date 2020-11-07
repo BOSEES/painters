@@ -1,0 +1,11 @@
+@value makerBlack: black;
+@value makerDeepWhite: #EEEFCD;
+@value makerDeepRed: #9C2F27;
+@value makerPink: #FECBBD;
+@value makerDeepGreen: #263B20;
+@value makerRed: #F56257;
+@value makerGreen: #5FAD46;
+@value makerYellow: #FFDD00;
+@value makerOrange: #F15A22;
+@value makerBlue: #478FCD;
+@value makerRainbow: linear-gradient(90deg, rgba(221,233,41,1) 0%, rgba(245,7,7,1) 50%, rgba(25,71,240,1) 95%);

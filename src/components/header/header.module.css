@@ -1,0 +1,34 @@
+@value makerRainbow, makerGreen, makerRed from "../../common/colors.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: makerGreen;
+  color : White;
+}
+
+.title {
+  margin-left: 0.5em;
+  background: makerRainbow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  width: 6em;
+  height: 2.5em;
+  border-radius: 10%;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: large;
+  line-height: 2.5em;
+  background-color: makerRed;
+  color: white;
+  text-decoration: none;
+}
