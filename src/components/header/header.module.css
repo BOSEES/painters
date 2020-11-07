@@ -1,9 +1,9 @@
-@value makerRainbow, makerGreen, makerRed from "../../common/colors.css";
+@value makerRainbow, makerWhite, makerOrange, makerRed from "../../common/colors.css";
 
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: makerGreen;
+  background-color: makerWhite;
   color : White;
 }
 
@@ -11,7 +11,7 @@
   margin-left: 0.5em;
   background: makerRainbow;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
 }
 
 .buttons {

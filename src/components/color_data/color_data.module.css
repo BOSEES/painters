@@ -1,0 +1,18 @@
+.colors {
+  
+}
+
+.datas {
+  display: flex;
+}
+
+.dataList {
+  padding:0;
+  width: 100%;
+}
+
+.data {
+  list-style-type: none;
+  font-weight: bold;
+  padding-bottom: 2em;
+}

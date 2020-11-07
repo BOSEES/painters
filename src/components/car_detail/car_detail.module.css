@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+}
+
+.parts {
+  /* position: relative; */
+}
+
+.part {
+  position: absolute;
+}
+
+.image {
+  height: 40em;
+}
+
+.metadata {
+  width: 100%;
+  padding: 2em;
+  
+}

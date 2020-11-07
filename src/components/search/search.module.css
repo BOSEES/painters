@@ -1,0 +1,36 @@
+@value makerRed, makerBlue, makerYellow from "../../common/colors.css";
+
+.form {
+  background-color: makerBlue;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+text-align: center;
+}
+
+.search {
+  
+}
+
+.input {
+  height: 3em;
+  width: 50em;
+  outline: 0;
+  border: 3px solid makerYellow;
+  font-size: large;
+}
+
+.button {
+  font-weight: bold;
+  font-size: large;
+  color: makerRed;
+  border:3px solid makerYellow;
+  background-color: makerYellow;
+  height: 3em;
+  width: 10em;
+  cursor: pointer;
+}
