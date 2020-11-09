@@ -5,7 +5,7 @@ import Home from "./components/home/home";
 import Painters from "./components/painters/painters";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
-import Resister from "./components/resister/resister";
+import Register from "./components/register/register";
 import Mypage from "./components/mypage/mypage";
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
             <Route path="/painters">
               <Painters />
             </Route>
-            <Route path="/resister">
-              <Resister />
+            <Route path="/register">
+              <Register />
             </Route>
             <Route path="/mypage">
               <Mypage />
