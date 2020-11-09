@@ -12,16 +12,18 @@ const Painters = () => {
       Name: "sonata",
       Color:"A5J",
       parts:{
-        A: "red",
-        B: "blue",
-        C: "green",
-        D: "black",
-        E: "white",
-        F: "yello",
-        G: "pink",
-        H: "pupple",
-        I: "grey",
-        J: "orange"
+        A: "Hood",
+        B: "FrontBumper",
+        C: "Fender_FL",
+        D: "Fender_FR",
+        E: "Fender_RL",
+        F: "Fender_RR",
+        G: "Door_FL",
+        H: "Door_FR",
+        I: "Door_RL",
+        J: "Door_RR",
+        K: "Trunk",
+        L: "RearBumper",
       }
     },
     {
@@ -31,16 +33,18 @@ const Painters = () => {
       Name: "moning",
       Color:"A5J",
       parts:{
-        A: "red",
-        B: "blue",
-        C: "green",
-        D: "black",
-        E: "white",
-        F: "yello",
-        G: "pink",
-        H: "pupple",
-        I: "grey",
-        J: "orange"
+        A: "Hood",
+        B: "FrontBumper",
+        C: "Fender_FL",
+        D: "Fender_FR",
+        E: "Fender_RL",
+        F: "Fender_RR",
+        G: "Door_FL",
+        H: "Door_FR",
+        I: "Door_RL",
+        J: "Door_RR",
+        K: "Trunk",
+        L: "RearBumper",
       }
     },
     {
@@ -50,16 +54,18 @@ const Painters = () => {
       Name: "gtr",
       Color:"A5J",
       parts:{
-        A: "red",
-        B: "blue",
-        C: "green",
-        D: "black",
-        E: "white",
-        F: "yello",
-        G: "pink",
-        H: "pupple",
-        I: "grey",
-        J: "orange"
+        A: "Hood",
+        B: "FrontBumper",
+        C: "Fender_FL",
+        D: "Fender_FR",
+        E: "Fender_RL",
+        F: "Fender_RR",
+        G: "Door_FL",
+        H: "Door_FR",
+        I: "Door_RL",
+        J: "Door_RR",
+        K: "Trunk",
+        L: "RearBumper",
       }
     },
   ]
@@ -67,7 +73,7 @@ const Painters = () => {
 
   // useEffect();
   return(
-    <section>
+    <section className={styles.section}>
       <div className={styles.search}>
         <Search cars={cars}/>
       </div>

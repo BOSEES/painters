@@ -1,8 +1,14 @@
 import React from "react";
+import styles from "./mypage.module.css";
+import SideBarMenu from "../side_bar_menu/side_bar_menu";
+import Status from "../status/status";
 
 const Mypage = () => {
   return(
-    <h1>My page</h1>
+    <div className={styles.container}>
+      <SideBarMenu />
+      <Status />
+    </div>
   )
 }
 

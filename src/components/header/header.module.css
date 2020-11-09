@@ -1,13 +1,20 @@
 @value makerRainbow, makerWhite, makerOrange, makerRed from "../../common/colors.css";
 
 .header {
+  position: fixed;
+  width: 80em;
   display: flex;
+  height: 5em;
   justify-content: space-between;
   background-color: makerWhite;
   color : White;
+  z-index: 0;
 }
 
 .title {
+  line-height: 3em;
+  font-weight: bold;
+  font-size: x-large;
   margin-left: 0.5em;
   background: makerRainbow;
   -webkit-background-clip: text;

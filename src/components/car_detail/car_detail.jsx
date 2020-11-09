@@ -6,16 +6,18 @@ const CarDetail = ({car}) => {
   return(
     <div className={styles.container}>
       <div className={styles.parts}>
-        <button className={styles.part} >{car.parts.A}</button>
-        <button className={styles.part} >{car.parts.B}</button>
-        <button className={styles.part} >{car.parts.C}</button>
-        <button className={styles.part} >{car.parts.D}</button>
-        <button className={styles.part} >{car.parts.J}</button>
-        <button className={styles.part} >{car.parts.E}</button>
-        <button className={styles.part} >{car.parts.F}</button>
-        <button className={styles.part} >{car.parts.G}</button>
-        <button className={styles.part} >{car.parts.H}</button>
-        <button className={styles.part} >{car.parts.I}</button>
+        <button type="submit" className={styles.part} >{car.parts.A}</button>
+        <button type="submit" className={styles.part} >{car.parts.B}</button>
+        <button type="submit" className={styles.part} >{car.parts.C}</button>
+        <button type="submit" className={styles.part} >{car.parts.D}</button>
+        <button type="submit" className={styles.part} >{car.parts.E}</button>
+        <button type="submit" className={styles.part} >{car.parts.F}</button>
+        <button type="submit" className={styles.part} >{car.parts.G}</button>
+        <button type="submit" className={styles.part} >{car.parts.H}</button>
+        <button type="submit" className={styles.part} >{car.parts.I}</button>
+        <button type="submit" className={styles.part} >{car.parts.J}</button>
+        <button type="submit" className={styles.part} >{car.parts.K}</button>
+        <button type="submit" className={styles.part} >{car.parts.L}</button>
         <img className={styles.image} src="/images/car.png" alt="car"/>
       </div>
       <div className={styles.metadata}>

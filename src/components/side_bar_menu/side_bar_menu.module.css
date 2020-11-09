@@ -1,0 +1,31 @@
+@value makerGreen,makerDeepWhite, makerBlue ,makerRed from "../../common/colors.css";
+
+.sideBarMenu {
+  max-width: 20em;
+  margin-right: 2em;
+  border-right: 2px solid makerDeepWhite;
+  padding: 2em;
+}
+
+.name,
+.myToken {
+  text-align: center;
+}
+
+.image {
+  margin-left: 1em;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  border: 2px solid makerBlue;
+}
+
+.colorBar1 {
+  background-color: makerGreen;
+  height: 3px;
+}
+
+.colorBar2 {
+  background-color: makerRed;
+  height: 3px;
+}
