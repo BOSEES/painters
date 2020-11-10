@@ -13,13 +13,22 @@ contract Painters is KIP7,KIP7Metadata,KIP7Pausable {
     }
     
     uint colorDataCount = 0;
-    
+    struct Color {
+      int num;
+      int value;
+    }
+
+    struct Part {
+      int idx;
+      Color color;
+    } 
+
     struct Car {
         address painter; //작업자
         string brand; // 제조사
         string carName; // 차종
         string carNum; // 차량번호
-        uint[][] parts;
+        Part part[]
     }
     
     event AddCar(
