@@ -6,18 +6,18 @@ const CarDetail = ({car}) => {
   return(
     <div className={styles.container}>
       <div className={styles.parts}>
-        <button type="submit" className={styles.part} >{car.parts.A}</button>
-        <button type="submit" className={styles.part} >{car.parts.B}</button>
-        <button type="submit" className={styles.part} >{car.parts.C}</button>
-        <button type="submit" className={styles.part} >{car.parts.D}</button>
-        <button type="submit" className={styles.part} >{car.parts.E}</button>
-        <button type="submit" className={styles.part} >{car.parts.F}</button>
-        <button type="submit" className={styles.part} >{car.parts.G}</button>
-        <button type="submit" className={styles.part} >{car.parts.H}</button>
-        <button type="submit" className={styles.part} >{car.parts.I}</button>
-        <button type="submit" className={styles.part} >{car.parts.J}</button>
-        <button type="submit" className={styles.part} >{car.parts.K}</button>
-        <button type="submit" className={styles.part} >{car.parts.L}</button>
+        <button type="submit" className={styles.part}>Hood</button>
+        <button type="submit" className={styles.part}>FrontBumper</button>
+        <button type="submit" className={styles.part}>Fender_FL</button>
+        <button type="submit" className={styles.part}>Fender_FR</button>
+        <button type="submit" className={styles.part}>Fender_RL</button>
+        <button type="submit" className={styles.part}>Fender_RR</button>
+        <button type="submit" className={styles.part}>Door_FL</button>
+        <button type="submit" className={styles.part}>Door_FR</button>
+        <button type="submit" className={styles.part}>Door_RL</button>
+        <button type="submit" className={styles.part}>Door_RR</button>
+        <button type="submit" className={styles.part}>Trunk</button>
+        <button type="submit" className={styles.part}>RearBumper</button>
         <img className={styles.image} src="/images/car.png" alt="car"/>
       </div>
       <div className={styles.metadata}>

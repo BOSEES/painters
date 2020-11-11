@@ -11,64 +11,60 @@ const Painters = () => {
       Brand: "hyundai",
       Name: "sonata",
       Color:"A5J",
-      parts:{
-        A: "Hood",
-        B: "FrontBumper",
-        C: "Fender_FL",
-        D: "Fender_FR",
-        E: "Fender_RL",
-        F: "Fender_RR",
-        G: "Door_FL",
-        H: "Door_FR",
-        I: "Door_RL",
-        J: "Door_RR",
-        K: "Trunk",
-        L: "RearBumper",
+      Hood:[{
+        ColorNum:"T400",
+        gram:"1"
+      },
+      {
+        ColorNum:"T401",
+        gram:"1"
+      },
+      {
+        ColorNum:"T402",
+        gram:"1"
+      },
+      {
+        ColorNum:"T403",
+        gram:"1"
+      },
+      {
+        ColorNum:"T404",
+        gram:"1"
+      },
+      {
+        ColorNum:"T405",
+        gram:"1"
+      },
+      {
+        ColorNum:"T406",
+        gram:"1"
+      },
+      {
+        ColorNum:"T407",
+        gram:"1"
+      },
+      {
+        ColorNum:"T408",
+        gram:"1"
+      },
+      {
+        ColorNum:"T409",
+        gram:"1"
       }
-    },
-    {
-      id: 2,
-      Number: "2222",
-      Brand: "deawoo",
-      Name: "moning",
-      Color:"A5J",
-      parts:{
-        A: "Hood",
-        B: "FrontBumper",
-        C: "Fender_FL",
-        D: "Fender_FR",
-        E: "Fender_RL",
-        F: "Fender_RR",
-        G: "Door_FL",
-        H: "Door_FR",
-        I: "Door_RL",
-        J: "Door_RR",
-        K: "Trunk",
-        L: "RearBumper",
-      }
-    },
-    {
-      id: 3,
-      Number: "3333",
-      Brand: "nissan",
-      Name: "gtr",
-      Color:"A5J",
-      parts:{
-        A: "Hood",
-        B: "FrontBumper",
-        C: "Fender_FL",
-        D: "Fender_FR",
-        E: "Fender_RL",
-        F: "Fender_RR",
-        G: "Door_FL",
-        H: "Door_FR",
-        I: "Door_RL",
-        J: "Door_RR",
-        K: "Trunk",
-        L: "RearBumper",
-      }
-    },
-  ]
+      ],
+      FrontBumper:[],
+      Fender_FL:[],
+      Fender_FR:[],
+      Fender_RL:[],
+      Fender_RR:[],
+      Door_FL:[],
+      Door_FR:[],
+      Door_RL:[],
+      Door_RR:[],
+      Trunk:[],
+      RearBumper:[]
+      },
+    ]   
   );
 
   // useEffect();
