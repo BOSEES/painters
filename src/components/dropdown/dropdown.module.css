@@ -1,0 +1,12 @@
+@value makerWhite, makerBlack from "../../common/colors.css";
+
+.dropdown {
+  display: flex;
+}
+
+.dropBtn {
+  width: 20em;
+  border: 1px solid gray;
+  background-color: makerWhite;
+  color: gray;
+}

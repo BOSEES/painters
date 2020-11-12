@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-import "./KIP7.sol";
-import "./KIP7Metadata.sol";
-import "./KIP7Pausable.sol";
+import "caver-js/packages/caver-kct/src/contract/token/KIP7/KIP7.sol";
+import "caver-js/packages/caver-kct/src/contract/token/KIP7/KIP7Metadata.sol";
+import "caver-js/packages/caver-kct/src/contract/token/KIP7/KIP7Pausable.sol";
 
 contract Painters is KIP7,KIP7Metadata,KIP7Pausable {
     address public owner; //컨트랙트 주인
@@ -21,7 +21,7 @@ contract Painters is KIP7,KIP7Metadata,KIP7Pausable {
     struct Part {
       int idx;
       Color color;
-    } 
+    }
 
     struct Car {
         address painter; //작업자
