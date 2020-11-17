@@ -8,7 +8,7 @@ const Painters = () => {
     {
       id: 1,
       Number: "1111",
-      Brand: "hyundai",
+      Maker: "hyundai",
       Name: "sonata",
       Color:"A5J",
       Hood:[{
