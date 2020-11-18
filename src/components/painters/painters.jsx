@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from "./painters.module.css";
 import Search from "../search/search";
 import Parts from "../parts/parts";
+import Header from "../header/header";
+import Footer from "../footer/footer";
 
 const Painters = () => {
   const [cars, setCars] = useState([
@@ -69,6 +71,8 @@ const Painters = () => {
 
   // useEffect();
   return(
+    <div>
+    <Header />
     <section className={styles.section}>
       <div className={styles.search}>
         <Search cars={cars}/>
@@ -77,6 +81,8 @@ const Painters = () => {
         <Parts cars={cars}/>
       </div>
     </section>
+    <Footer />
+    </div>
   )
 }
 

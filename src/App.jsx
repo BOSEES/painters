@@ -1,21 +1,18 @@
 import React from "react";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import styles from "./App.module.css";
-import Home from "./components/home/home";
+import Login from "./components/login/login";
 import Painters from "./components/painters/painters";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
 import Register from "./components/register/register";
 import Mypage from "./components/mypage/mypage";
 
-function App() {
+function App({authService}) {
   return (
     <div className={styles.app}>
       <BrowserRouter>
-        <Header />
           <Switch>
             <Route exact path="/">
-              <Home />
+              <Login authService={authService}/>
             </Route>
             <Route path="/painters">
               <Painters />
@@ -27,7 +24,6 @@ function App() {
               <Mypage />
             </Route>
           </Switch>
-        <Footer />
       </BrowserRouter>
     </div>
   );
