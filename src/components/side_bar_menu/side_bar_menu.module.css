@@ -29,3 +29,11 @@
   background-color: makerRed;
   height: 3px;
 }
+
+.logout {
+  font-size: 1em;
+  background-color: ghostwhite;
+  border:  none;
+  padding: 0;
+  cursor: pointer;
+}

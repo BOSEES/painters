@@ -9,21 +9,23 @@ const Login = ({authService}) => {
   }
 
   return(
-    <div className={styles.login}>
-      <div className={styles.header}>
-        header
-      </div>
-      <h1 className={styles.title}>login</h1>
-      <ul>
-        <li>
-          <button className={styles.googleBtn} onClick={onLogin}>Google</button>
-        </li>
-        <li>
-          <button className={styles.githubBtn} onClick={onLogin}>Github</button>
-        </li>
-      </ul>
-      <div className={styles.footer}>
-        footer
+    <div className={styles.home}>
+      <div className={styles.login}>
+        <h1 className={styles.header}>
+          Painters
+        </h1>
+        <h1 className={styles.title}>로그인 하기</h1>
+        <ul className={styles.ul}>
+          <li className={styles.btnlist}>
+            <button className={`${styles.btn} ${styles.google}`}  onClick={onLogin}>Google</button>
+          </li>
+          <li className={styles.btnlist}>
+            <button className={`${styles.btn} ${styles.github}`} onClick={onLogin}>Github</button>
+          </li>
+        </ul>
+        <h3 className={styles.footer}>
+          code your bosees.
+        </h3>
       </div>
     </div>
   )

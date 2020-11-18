@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./side_bar_menu.module.css";
 
-const SideBarMenu = () => {
+const SideBarMenu = ({onLogout}) => {
   return(
     <div className={styles.sideBarMenu}>
         <img className={styles.image} src="/images/car.png" alt="profile image"/>
@@ -15,6 +15,7 @@ const SideBarMenu = () => {
         <hr className={styles.colorBar2}/>
         <p>내 토큰 현황</p>
         <p>트랜잭션 리스트</p>
+        {onLogout && <button className={styles.logout} onClick={onLogout}>로그 아웃</button>}
       </div>
   )
 }

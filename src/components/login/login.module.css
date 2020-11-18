@@ -1,3 +1,50 @@
-.login {
+@value makerWhite,makerYellow, makerRed, makerBlue, makerGreen from "../../common/colors.css";
 
+.home {
+  margin:15em;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  width:30em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.header {
+  margin:0;
+  background-color: makerBlue;
+}
+
+.footer {
+  margin:0;
+  background-color: makerGreen;
+}
+
+.ul {
+  padding: 0;
+}
+
+.btn {
+  width: 20rem;
+  height: 3em;
+  border: 2px solid;
+  border-radius: 1.2rem;
+  background-color: makerWhite;
+  cursor: pointer;
+  margin-bottom: 1em;
+  outline: none;
+}
+
+.google {
+  border: 2px solid makerRed;
+}
+
+.github {
+  border: 2px solid makerYellow;
+}
+
+.btnlist {
+  list-style: none;
 }
