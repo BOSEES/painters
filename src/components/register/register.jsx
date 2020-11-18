@@ -2,8 +2,15 @@ import React, { useState } from "react";
 import styles from "./register.module.css";
 import DropDown from "../dropdown/dropdown";
 
-const Register = ({addCar}) => {
+const Register = () => {
   const [cars, setCars] = useState();
+
+  const addCar = (car) => {
+    setCars(cars => {
+      const update = {...cars};
+
+    })
+  }
 
   return(
     <div className={styles.register}>
