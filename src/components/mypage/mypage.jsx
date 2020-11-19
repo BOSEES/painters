@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./mypage.module.css";
 import SideBarMenu from "../side_bar_menu/side_bar_menu";
 import Status from "../status/status";
 import Header from "../header/header";
 import Footer from "../footer/footer";
-import { useHistory } from "react-router-dom";
 
 const Mypage = ({ authService }) => {
   return(
