@@ -1,7 +1,24 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from "./side_bar_menu.module.css";
+import { useHistory } from "react-router-dom";
 
-const SideBarMenu = ({onLogout}) => {
+const SideBarMenu = ({ authService }) => {
+  const history = useHistory();
+  
+  const onLogout = () => {
+    authService
+    .logOut();
+  }
+
+  useEffect(() => {
+    authService
+    .onAuthChange(user => {
+      if(!user) {
+        history.push("/");
+      }
+    })
+  });
+  
   return(
     <div className={styles.sideBarMenu}>
         <img className={styles.image} src="/images/car.png" alt="profile image"/>

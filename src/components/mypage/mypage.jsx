@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./mypage.module.css";
 import SideBarMenu from "../side_bar_menu/side_bar_menu";
 import Status from "../status/status";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import { useHistory } from "react-router-dom";
 
-const Mypage = () => {
+const Mypage = ({ authService }) => {
   return(
     <>
     <Header />
     <div className={styles.container}>
-      <SideBarMenu />
+      <SideBarMenu authService={authService}/>
       <Status />
     </div>
     <Footer />

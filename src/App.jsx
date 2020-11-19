@@ -21,7 +21,7 @@ function App({authService}) {
               <Register />
             </Route>
             <Route path="/mypage">
-              <Mypage />
+              <Mypage authService={authService}/>
             </Route>
           </Switch>
       </BrowserRouter>

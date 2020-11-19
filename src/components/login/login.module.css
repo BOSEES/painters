@@ -37,6 +37,10 @@
   outline: none;
 }
 
+.btn:hover {
+  background-color: gray;
+}
+
 .google {
   border: 2px solid makerRed;
 }
