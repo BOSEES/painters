@@ -78,20 +78,20 @@ function App({authService}) {
   return (
     <div className={styles.app}>
       <BrowserRouter>
-          <Switch>
-            <Route exact path="/">
-              <Login authService={authService}/>
-            </Route>
-            <Route path="/painters">
-              <Painters addCar={addCar} cars={cars}/>
-            </Route>
-            <Route path="/register">
-              <Register addCar={addCar}/>
-            </Route>
-            <Route path="/mypage">
-              <Mypage authService={authService}/>
-            </Route>
-          </Switch>
+        <Switch>
+          <Route exact path="/">
+            <Login authService={authService}/>
+          </Route>
+          <Route path="/painters">
+            <Painters addCar={addCar} cars={cars}/>
+          </Route>
+          <Route path="/register">
+            <Register addCar={addCar}/>
+          </Route>
+          <Route path="/mypage">
+            <Mypage authService={authService}/>
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
